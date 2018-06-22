@@ -9,18 +9,6 @@ public class User {
 	private String birthday;
 	private String password;
 
-	public String getPassword() {
-		return password;
-	}
-	public void setPassword(String password) {
-		this.password = password;
-	}
-	public String getBirthday() {
-		return birthday;
-	}
-	public void setBirthday(String birthday) {
-		this.birthday = birthday;
-	}
 	public Integer getUser_id() {
 		return user_id;
 	}
@@ -45,5 +33,16 @@ public class User {
 	public void setResidence(String residence) {
 		this.residence = residence;
 	}
-
+	public String getBirthday() {
+		return birthday;
+	}
+	public void setBirthday(String birthday) {
+		this.birthday = birthday;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
 }
